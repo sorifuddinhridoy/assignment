@@ -15,11 +15,11 @@
     text-align: right;
 }
 .banner-title{
-    font-size: 30px;
-    margin-right: 50px;
+    font-size: 40px;
+    margin-right: 100px;
 }
-.banner-descrption{
-    margin-right: 50px;
+.banner-description{
+    margin-right: 100px;
     margin-bottom: 20px;
 }
 .btn-primary{
@@ -82,7 +82,6 @@ padding-top: 40px;
     display: flex;
     justify-content: center;
 
-
 }
 .skill-container img{
     width: 40px;
@@ -108,21 +107,21 @@ padding-top: 40px;
 main{
     background: #FFFFFF;
 }
-.maindset{
-     background-image:linear-gradient(50deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../watch.png');
-     background-repeat: no-repeat;
-     background-position: center;
-     background-blend-mode: overlay;
-     justify-content: center;
-     width: 80%;
-     height: 50vh;
-     font-weight: 700;
-     font-size: 40px;
-     align-items: center;
-     text-align: center;
-     margin-left: 100px;
-    
 
+.maindset
+{
+     background-image:linear-gradient(50deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    justify-content: center;
+    width: 80%;
+    height: 50vh;
+    font-weight: 700;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
 }
 .maindset h3{
     align-items: center;
