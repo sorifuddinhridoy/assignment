@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    text-align: right;
+}
+.banner-title{
+    font-size: 30px;
+    margin-right: 50px;
+}
+.banner-descrption{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    background-color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 100px;
+}
+/* about section */
+.about{
+    margin: 0px 200px;
+    display: flex;
+    align-items:center ;
+    gap: 70px;
+
+}
+.about-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+
+}
+.about-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+}
+.list{
+padding-top: 40px;
+}
+/* section title */
+.my-plan{
+    text-align:center;
+    align-items: center;
+
+
+}
+.section-title{
+    text-align:center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 20px;
+    text-align:center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+.skill-container img{
+    width: 40px;
+    height: 40px;
+}
+.skill{
+    padding: 50px;
+
+}
+
+.skill-title{
+    font-weight: 700px;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #737272;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+main{
+    background: #FFFFFF;
+}
+.maindset{
+     background-image:linear-gradient(50deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../watch.png');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-blend-mode: overlay;
+     justify-content: center;
+     width: 80%;
+     height: 50vh;
+     font-weight: 700;
+     font-size: 40px;
+     align-items: center;
+     text-align: center;
+     margin-left: 100px;
+    
+
+}
+.maindset h3{
+    align-items: center;
+    text-align: center;
+    padding-top:50px ;
+} 
+.maindset button{
+    align-items: center;
+    text-align: center;
+    margin-top:24px;
+
+
+}
+/* footer section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: white;
+    padding: 50px 200px;
+}
+.contact-description{
+    margin-bottom:2px;
+}
+.contact input[type="email"]{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding:18px 30px;
+}
+.contact a{
+    text-decoration: none;
+    padding: 5px;
+    padding-left:0px;
+    width:50%;
+    height:50vh;
+}
+.contact h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contact h4{
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+.contact-btn-primary{
+    background: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #F15B22;
+    margin-right: 100px;
+}
