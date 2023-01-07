@@ -110,30 +110,28 @@ main{
 
 .maindset
 {
-     background-image:linear-gradient(50deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../watch.png');
+     background-image:linear-gradient(80deg, #ef865d 0%, rgba(241, 91, 34, 0)), url('../watch.png');
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: overlay;
     justify-content: center;
-    width: 80%;
-    height: 50vh;
+    width: 70%;
+    height: 40vh;
     font-weight: 700;
     font-size: 40px;
-    align-items: center;
+    align-items:center;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .maindset h3{
     align-items: center;
     text-align: center;
-    padding-top:50px ;
+    padding: 50px;
+
 } 
 .maindset button{
     align-items: center;
     text-align: center;
-    margin-top:24px;
-
-
 }
 /* footer section */
 .contact{
